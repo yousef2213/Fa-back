@@ -494,7 +494,6 @@ class FaProvider extends Component {
   };
 
   SharePost = (acc) => {
-    console.log(acc);
     let comfir = window.confirm("Share Now A diary");
     if (comfir === true) {
       let meInfo = this.state.UserData;

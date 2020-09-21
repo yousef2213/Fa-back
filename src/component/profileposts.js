@@ -3,7 +3,6 @@ import { FaConsumer } from "../Context/context";
 import SW from "../images/error.jpeg";
 import Icons from "./iconLove";
 import { FaRegComments } from "react-icons/fa";
-import { FiShare } from "react-icons/fi";
 import Eror from "../Pages/Eror";
 export default function postcomponent() {
   return (

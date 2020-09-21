@@ -26,7 +26,7 @@ export default class Home extends Component {
             <Drop sh={showDisplayedit}>
               <div className="container" id="newposts">
                 <div className="row pt-2">
-                  <div className="col-10 col-sm-10 col-xm-10 col-md-7 col-lg-7 mx-auto pt-5">
+                  <div className="col-12 col-sm-10 col-xm-10 col-md-7 col-lg-7 mx-auto pt-5">
                     <div className="mb-4">
                       <textarea
                         className="form-control"
@@ -53,7 +53,7 @@ export default class Home extends Component {
                       />
                     </div>
                   </div>
-                  <div className="col-10 d-none  d-md-block col-md-5 col-lg-5 mx-auto pt-5">
+                  <div className="col-12 d-none  d-md-block col-md-5 col-lg-5 mx-auto pt-5">
                     <Follow users={Followers} />
                   </div>
                 </div>

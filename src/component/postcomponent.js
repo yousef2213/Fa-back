@@ -3,7 +3,6 @@ import { FaConsumer } from "../Context/context";
 import SW from "../images/error.jpeg";
 import Icons from "./iconLove";
 import { FaRegComments } from "react-icons/fa";
-import { FiShare } from "react-icons/fi";
 import Eror from "../Pages/Eror";
 import moment from "moment";
 export default function postcomponent() {
@@ -99,27 +98,3 @@ export default function postcomponent() {
     </FaConsumer>
   );
 }
-
-// {AlonePost.comments.map((comm) => {
-//   return (
-//     <div
-//       key={Math.random() * all.length}
-//       id="div-comments mb-2"
-//     >
-//       <div className="d-flex pl-2 py-2">
-//         <img
-//           src={comm.fromImg || SW}
-//           className="postcommentimg"
-//           alt="..."
-//         />
-//         <div>
-//           <h6 className="nameuserpost d-block">
-//             {comm.from}
-//           </h6>
-//           <h6 className="commentuser">{comm.comment}</h6>
-//         </div>
-//       </div>
-//       <hr className="p-0 m-0" />
-//     </div>
-//   );
-// })}

@@ -191,10 +191,10 @@ const NavWrapper =styled.nav`
   }
   @media (max-width: 500px) {
     .logo-name{
-      font-size : 17px;
+      font-size : 16px;
     }
     .link-home{
-      font-size : 17px!important;
+      font-size : 14px!important;
     }
   }
 `
