@@ -1,0 +1,313 @@
+:root {
+  --clr-primary: #2680c0;
+  --clr-primary-dark: hsl(205, 100%, 21%);
+  --clr-primary-light: hsl(205, 84%, 74%);
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --ff-primary: "Catamaran", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --large-screen-width: 1170px;
+  --small-screen-width: 90vw;
+  --fixed-width: 100rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  background: var(--clr-primary);
+  color: var(--clr-white);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  font-weight: 700;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  color: var(--clr-primary);
+  background: var(--clr-primary-light);
+}
+
+.personal-img {
+  width: 412px;
+  height: 450px;
+  margin-top: 64px;
+}
+
+.bg-Twitter {
+  background-color: #116191 !important;
+}
+
+/*
+=============== 
+Navbar
+===============
+*/
+nav {
+  background: var(--clr-primary);
+  padding: 0.5rem 2rem;
+}
+
+.nav-3 .nav-item {
+  transition: 0.3 all ease-in-out;
+}
+
+.nav-3 .nav-item:hover {
+  background: #ccc;
+  text-decoration: none;
+}
+
+.item-nav:hover {
+  text-decoration: none;
+}
+
+.nav-center {
+  max-width: 70rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .2rem 1rem;
+}
+
+nav h3 {
+  margin-bottom: 0;
+  color: var(--clr-white);
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+}
+
+nav svg {
+  width: 2rem;
+  fill: var(--clr-white);
+}
+
+/*
+=============== 
+NAVBAR
+===============
+*/
+.imgs {
+  font-size: 2rem;
+  fill: #000 !important;
+}
+
+.ico {
+  font-size: 20px;
+}
+
+.acc {
+  font-size: 25px;
+  margin-right: -11px;
+}
+
+.down {
+  cursor: pointer;
+}
+
+.inderline {
+  width: 5rem;
+  height: 0.2rem;
+  background: #319fec;
+  border-radius: 10px;
+}
+
+.icon-start {
+  font-size: 40px;
+  color: #f1f1f1;
+}
+
+.icon-like {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 0px 20px;
+  border-radius: 6px;
+  position: relative;
+}
+
+
+.loke-icon:hover .icons {
+  display: block;
+}
+
+
+.btn-del {
+  font-size: 10px !important;
+  margin-top: -10px !important;
+}
+
+.user {
+  margin: 10px 0;
+  background: #FFF;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.user a {
+  align-self: center;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.img-user-search {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+}
+
+.true-follow,
+.following-btn {
+  border: none;
+  padding: 5px 15px;
+  background: #385898;
+  color: #FFF;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.follow-btn:focus,
+.following-btn:focus,
+.true-follow:focus {
+  outline: none;
+}
+
+.user-name-search {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  line-height: 20px;
+  padding-left: 20px !important;
+}
+
+.user-name-search:hover {
+  text-decoration: underline;
+}
+
+.user-follow {
+  border-radius: 6px;
+  background: #FFF;
+}
+
+.user-follow h3 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  text-align: center;
+  padding: 10px 12px;
+  background: #2680c0;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.user-follow h2 {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 12px;
+  letter-spacing: 2px;
+}
+
+.saerch-div-icon {
+  padding: 0;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.saerch-add-icon {
+  color: #2680c0;
+  margin: 10px 10px 10px 10px;
+  font-size: 33px;
+}
+
+.ss {
+  border-radius: 6px !important;
+}
+
+.navbar-nav {
+  display: inline-block !important;
+}
+
+/* Com */
+.comment {
+  cursor: pointer;
+}
+
+.postcommentimg {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50%;
+}
+
+.nameuserpost {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.commentuser {
+  padding-left: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.span-share {
+  margin-left: 40px;
+  color: #FFF;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 2px 10px;
+  border-radius: 6px;
+  background: #28a745;
+}
+
+.lala {
+  color: #dc3545 !important;
+}
